@@ -18,7 +18,7 @@ In your Taiga back python virtualenv install the pip package `taiga-contrib-goog
 Modify your `settings/local.py` and include the line:
 
 ```python
-    INSTALLED_APPS += ["taiga_contrib_google_auth"]
+    INSTALLED_APPS += ["taiga-contrib-google-sso"]
 
     # Get these from https://console.cloud.google.com/apis/credentials
 
@@ -67,7 +67,7 @@ Clone the repo and
 Modify `taiga-back/settings/local.py` and include the line:
 
 ```python
-    INSTALLED_APPS += ["taiga_contrib_google_auth"]
+    INSTALLED_APPS += ["taiga-contrib-google-sso"]
 
     # Get these from https://console.cloud.google.com/apis/credentials
 

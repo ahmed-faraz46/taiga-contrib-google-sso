@@ -16,15 +16,6 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from django.apps import AppConfig
+__version__ = (1, 0, 0)
 
-
-class TaigaContribGoogleAuthAppConfig(AppConfig):
-    name = "taiga_contrib_google_auth"
-    verbose_name = "Taiga contrib google auth App Config"
-
-    def ready(self):
-        from taiga.auth.services import register_auth_plugin
-        from . import services
-        register_auth_plugin("google", services.google_login_func)
-
+default_app_config = "taiga-contrib-google-sso.apps.TaigaContribGoogleAuthAppConfig"
