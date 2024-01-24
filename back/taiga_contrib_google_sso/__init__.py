@@ -18,4 +18,4 @@
 
 __version__ = (1, 0, 0)
 
-default_app_config = "taiga-contrib-google-sso.apps.TaigaContribGoogleAuthAppConfig"
+default_app_config = "taiga-contrib-google-sso.apps.TaigaContribGoogleSSOAppConfig"

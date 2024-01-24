@@ -19,9 +19,9 @@
 from django.apps import AppConfig
 
 
-class TaigaContribGoogleAuthAppConfig(AppConfig):
+class TaigaContribGoogleSSOAppConfig(AppConfig):
     name = "taiga_contrib_google_sso"
-    verbose_name = "Taiga contrib google auth App Config"
+    verbose_name = "Taiga contrib google sso App Config"
 
     def ready(self):
         from taiga.auth.services import register_auth_plugin

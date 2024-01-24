@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'taiga-contrib-google-sso',
-    version = ":versiontools:taiga_contrib_google_sso:",
+    version = "1.0.1",
     description = "The Taiga plugin for google authentication",
     long_description = "",
     keywords = 'taiga, google, auth, plugin',
