@@ -20,7 +20,7 @@ from django.apps import AppConfig
 
 
 class TaigaContribGoogleAuthAppConfig(AppConfig):
-    name = "taiga-contrib-google-sso"
+    name = "taiga_contrib_google_sso"
     verbose_name = "Taiga contrib google auth App Config"
 
     def ready(self):
